@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.shopping-car-header{
+    height: 30px;
+    line-height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+}
+.w{
+    width: 1190px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #999;
+    position: relative;
+}
+a{
+    color: rgb(102, 102, 102);
+}
+a.red {
+    color: red;
+}
+.position {
+    float: left;
+    color: red;
+}
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    float: left;
+    position: relative;
+}
+
+.spacer {
+    width: 2px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 5px;
+}
+
+.navbar .nav-item > div.dt  {
+    padding: 0 7px;
+    border: 1px solid transparent;
+}
+
+
+.navbar .nav-item:hover .dt-icon {
+    background-color: #fff;
+    border-bottom: none;
+    border-color: #e3e4e5;
+}
+.nav-item:hover .my-dropdown {
+    display: block;
+}
+.nav-item:hover .dt-icon::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    bottom: 1px;
+    left: 0;
+    background-color: #fff;
+    z-index: 101;
+}
+.my-dropdown.my-jd {
+    width: 280px;
+}
+.my-dropdown {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background-color: #fff;
+    border: 1px solid #e3e4e5;
+    z-index: 100;
+    display: none;
+}
+.my-dropdown dl {
+    padding: 10px 0 10px 15px;
+    border-bottom: 1px solid #eee;
+}
+.my-dropdown dt {
+    font-weight: 900;
+}
+.my-dropdown dd {
+    line-height: 24px;
+    float: left;
+    white-space: nowrap;
+}
+.my-dropdown.my-jd dd {
+    width: 126px;
+}
+
+.my-dropdown.my-company {
+    width: 140px;
+}
+.my-dropdown.my-company dd {
+    width: 56px;
+}
+
+.my-dropdown.my-serve {
+    width: 170px;
+    left: auto;
+    right: 0px;
+}
+.my-dropdown.my-serve dd {
+    width: 70px;
+}
+
+.my-dropdown.app {
+    width: 1190px;
+    right: -84px;
+    left: auto;
+    padding: 15px 0;
+}
+
+.my-dropdown.app dl {
+    width: 340px;
+    border-left: 1px solid #eee;
+    border-bottom: none;
+    float: left;
+}
+.my-dropdown.app dd {
+    width: 85px;
+}
+.logo-search{
+    width: 990px;
+    margin: 0 auto;
+    height: 87px;
+    border-bottom: 1px solid #eee;
+}
+.logo{
+    float: left;
+    width: 134px;
+    height: 50px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo.png);
+    background-size: 134px 42px;
+}
+.search{
+    width: 325px;
+    height: 28px;
+    float: right;
+    margin-top: 33px;
+}
+.input{
+    float: left;
+    width: 270px;
+    height: 24px;
+}
+.input input{
+    width: 270px;
+    border: 2px solid red;
+    height: 24px;
+}
+.button input{
+    display: inline-block;
+    width: 48px;
+    height: 28px;
+    margin-left: 4px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    background-color: red;
+}
+input{
+    outline: none;
+    border: 0;
+}
+.thing{
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 990px;
+    height: 40px;
+}
+.thing-left{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #e2231a;
+}
+.thing-right{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.thing-right div{
+    margin-top: 6px;
+    padding: 2px 4px;
+    float: right;
+    line-height: 23px;
+    width: 144px;
+    height: 23px;
+    border: 1px solid rgb(118, 111, 111);
+}
+
+.shopping-list{
+    font-size: 12px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 990px;
+    height: 138px;
+    padding: 30px 20px;
+    border: 1px solid #c5c5c5;
+}
+.shopping-list img{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.title{
+    margin-left: 10px;
+    float: left;
+    width: 205px;
+    height: 55px;
+    color: #333;
+    line-height: 20px;
+    
+}
+.introduce{
+    float: left;
+    width: 130px;
+    line-height: 20px;
+    height: 15px;
+    margin-left: 40px;
+}
+.price{
+    float: left;
+    width: 150px;
+    height: 15px;
+    padding-right: 40px;
+    text-align: right;
+}
+.shopping-list span{
+    float: left;
+    display: inline-block;
+    width: 17px;
+    cursor: pointer;
+    border: 1px solid #cbcbcb;
+    line-height: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.number{
+    width: 46px;
+    float: left;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #cbcbcb;
+    background: #fff;
+}
+.total{
+    float: left;
+    width: 150px;
+    height: 15px;
+    text-align: right;
+}
+.operation{
+    float: left;
+    width: 57px;
+    height: 25px;
+
+}
+.operation span{
+    width: 90px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+}
+.shopping-content ul{
+    width: 990px;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 12px;
+    background-color: #f3f3f3;
+    line-height: 50px;
+}
+.shopping-content ul li{
+    float: left;
+}
+.shopping-content ul li:nth-of-type(1){
+    margin-left: 200px;
+}
+.shopping-content ul li:nth-of-type(2){
+    margin-left: 381px;
+}
+.shopping-content ul li:nth-of-type(3){
+    margin-left: 78px;
+}
+.shopping-content ul li:nth-of-type(4){
+    margin-left: 142px;
+}
+.shopping-content ul li:nth-of-type(5){
+    margin-left: 50px;
+}
+
+.settlement{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+}
+.box{
+    width: 990px;
+    height: 50px;
+    margin: 0 auto;
+}
+.box p{
+    float: right;
+    width: 200px;
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    color: #999;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.result{
+    font-size: 16px;
+    color: #e2231a;
+    font-family: verdana;
+    font-weight: 700;
+}
+
+.money{
+    float: right;
+    width: 94px;
+    height: 52px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    background: #e54346;
+    overflow: hidden;
+    cursor: pointer;
+}
